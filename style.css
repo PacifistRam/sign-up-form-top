@@ -1,5 +1,10 @@
 /* font-family: 'PT Serif', serif; */
 
+/* Photo by <a href="https://unsplash.com/@ispywithmylittleeye?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Zeynep Sümer</a> on <a href="https://unsplash.com/photos/sunflower-field-during-day-time-lk3F07BN8T8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> */
+  
+/* logo attr */
+/* <a href="https://www.flaticon.com/free-icons/letter-s" title="Letter s icons">Letter s icons created by popo2021 - Flaticon</a> */
+
 *{
     margin: 0;
     padding: 0;
@@ -13,4 +18,46 @@ a{
 }
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #222222;
+    padding-top: 10rem;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 0 auto;
+    
+}
+
+.img-container {
+    background-image: url(sumer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10rem 2rem;
+    
+}
+
+.logo {
+    display: flex;
+    background-color: grey;
+    width: 100%;
+  
+}
+.logo-img {
+    height: 2rem;
+    width: 2rem;
+    background-color: grey;
+}
+.logo-img img {
+    width: 100%;
+
+}
+
+
+
+.form-container {
+    flex: 1;
+    background-color: white;
+
 }
