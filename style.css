@@ -9,20 +9,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 li{
     list-style: none;
 }
 a{
     text-decoration: none;
+    color: #16a34a;
 }
 button {
+    background-color: transparent;
     border: none;
-    outline: none;
-    padding: none;
-    background:none;
     margin: 0;
-    font-family: inherit;
+    padding: 0;
+    text-align: inherit;
+    font: inherit;
+    border-radius: 0;
+    appearance: none; 
 }
 input[type=number]{
     -moz-appearance: textfield;
@@ -165,9 +169,23 @@ form ul li input {
     border-radius: 10px;
     font-weight: 500;
     font-size: 1rem;
+    box-shadow: 1px 6px 10px 0px #978E99 ;
+    cursor: pointer;
+    transition: 0.2s ease-in;
 }
 
+.btn:hover {
+    background-color: #f3f4f6;
+    border-color: #16a34a;
+    color: #16a34a;
+   
+}
 
+.button-section h3 {
+    padding: 2rem 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
 
 
 @media(max-width: 563px) {
